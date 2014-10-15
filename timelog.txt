@@ -1,0 +1,3 @@
+Sunday 8:00pm - 10:00pm Initial Research and Document
+Monday 12:00am - 1:00am Install Django
+Tuesday 12:00am - 6:00am Built models, defined admin view and basic user view
