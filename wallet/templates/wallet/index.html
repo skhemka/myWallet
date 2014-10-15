@@ -1,0 +1,9 @@
+{% if wallet_styles %}
+    <ul>
+    {% for wallet in wallet_styles %}
+        <li><a href ={% url 'wallet:detail' wallet.style %}>{{wallet.name}}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No wallets available.</p>
+{% endif %}
