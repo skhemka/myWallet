@@ -1,10 +1,21 @@
-{% if wallet_styles %}
-    <ul>
-    {% for wallet in wallet_styles %}
-        <li><a href ={% url 'wallet:detail' wallet.style %}>{{wallet.name}}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No wallets available.</p>
-{% endif %}
-<p><a href ={% url 'wallet:create' %}>Create New Wallet</a></p>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>myWallet</title>
+		{% load staticfiles %}
+		<link rel="stylesheet", type = "text/css", href="{% static "wallet/css/index.css" %}" />
+	</head>
+	<body>
+		<h1>myWallet</h1>
+		<p><a href ={% url 'wallet:create' %}>Create New Wallet</a></p>
+		{% if wallet_styles %}
+		    <ul>
+		    {% for wallet in wallet_styles %}
+		        <li><a href ={% url 'wallet:detail' wallet.style %}>{{wallet.name}}</a></li>
+		    {% endfor %}
+		    </ul>
+		{% else %}
+		    <p>No wallets available.</p>
+		{% endif %}
+	</body>
+</html>
