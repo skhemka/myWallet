@@ -1,0 +1,6 @@
+<h1>Create new Wallet</h1>
+<form method="post" action="{% url 'wallet:create' %}">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="OK">
+</form>

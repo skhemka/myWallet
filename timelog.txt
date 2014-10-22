@@ -1,3 +1,6 @@
-Sunday 8:00pm - 10:00pm Initial Research and Document
-Monday 12:00am - 1:00am Install Django
-Tuesday 12:00am - 6:00am Built models, defined admin view and basic user view
+12 Oct 8:00pm - 10:00pm Initial Research and Document
+13 Oct 12:00am - 1:00am Install Django
+15 Oct 12:00am - 6:00am Built models and  admin view
+20 Oct 12:00am - 2:00pm Worked on user view for index, detail
+21 Oct 11:00am - 2:00pm Worked on user view for index, detail 
+22 Oct 12:00am - 4:30pm Worked on forms -  STUCK
