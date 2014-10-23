@@ -2,5 +2,7 @@
 13 Oct 12:00am - 1:00am Install Django
 15 Oct 12:00am - 6:00am Built models and  admin view
 20 Oct 12:00am - 2:00pm Worked on user view for index, detail
-21 Oct 11:00am - 2:00pm Worked on user view for index, detail 
-22 Oct 12:00am - 4:30pm Worked on forms -  STUCK
+22 Oct 11:00am - 2:00pm Worked on user view for index, detail 
+23 Oct 12:00am - 4:30am Worked on forms -  STUCK
+23 Oct 4:30am - 6:00am Loaded static css files
+23 Oct 9:30pm - 12:00am Worked on user interface for index, detail

@@ -1,3 +1,13 @@
 h1 {
-    font: bold 48px; 
-    color: green;}
+	font: Verdana;
+    font-size: 15em; 
+    color: #201009;
+	text-align: center;
+}
+
+body {
+}
+
+p {
+	text-align: center;
+}

@@ -2,20 +2,30 @@
 <html>
 	<head>
 		<title>myWallet</title>
+		<meta name: "Shreeyagya Khemka" content = "Home"/>
 		{% load staticfiles %}
 		<link rel="stylesheet", type = "text/css", href="{% static "wallet/css/index.css" %}" />
 	</head>
 	<body>
-		<h1>myWallet</h1>
-		<p><a href ={% url 'wallet:create' %}>Create New Wallet</a></p>
-		{% if wallet_styles %}
-		    <ul>
-		    {% for wallet in wallet_styles %}
-		        <li><a href ={% url 'wallet:detail' wallet.style %}>{{wallet.name}}</a></li>
-		    {% endfor %}
-		    </ul>
-		{% else %}
-		    <p>No wallets available.</p>
-		{% endif %}
+		<div id = "header">
+			<h1>myWallet</h1>
+		</div>
+		<div id = "content">
+			<p><a href ={% url 'wallet:create' %}>New myWallet</a></p>
+			<p>or</p>
+			<p>choose an existing one: </p>
+			{% if wallet_styles %}
+			    <ul>
+			    {% for wallet in wallet_styles %}
+			        <li><a href ={% url 'wallet:detail' wallet.style %}>{{wallet.name}}</a></li>
+			    {% endfor %}
+			    </ul>
+			{% else %}
+			    <p>No wallets available.</p>
+			{% endif %}
+		</div>
+		<div id = "footer">
+			<p>Shreeyagya Khemka</p>
+		</div>
 	</body>
 </html>

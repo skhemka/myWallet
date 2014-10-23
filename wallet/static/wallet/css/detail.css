@@ -1,5 +1,5 @@
 h1 {
-    font-size: 15em; 
+    font-size: 5em; 
     color: #201009;
 	text-align: center;
 }
@@ -8,13 +8,21 @@ body {
 	background-color: #FFFFFC;
 }
 
-a{
-	text-decoration: none;
-	color: #800000;
+table{
+	font-size: 3em;
+	border: solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
 }
 
-#content {
-	text-align: center;
+td {
+	padding-right: 5em;
+	border: solid;
+}
+
+p {
+	font-size: 5em;
 }
 
 #footer {
@@ -25,13 +33,4 @@ a{
     border-right-style: none;
     border-bottom-style: none;
     border-left-style: none;
-}
-
-p {
-	font-size: 5em;
-}
-
-ul {
-	font-size: 5em;
-	list-style-type: none;
 }
